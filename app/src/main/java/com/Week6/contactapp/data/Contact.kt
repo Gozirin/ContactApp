@@ -1,20 +1,20 @@
-package com.smith.contactapp.data
+package com.Week6.contactapp.data
 
 import com.google.firebase.database.Exclude
 
 data class Contact(
     @get:Exclude
-    var id:String? =  null,
-    var fullName:String? = null,
-    var ContactNumber:String? = null,
+    var id: String? = null,
+    var fullName: String? = null,
+    var ContactNumber: String? = null,
     @get:Exclude
     var isDeleted: Boolean = false
 
 ) {
     override fun equals(other: Any?): Boolean {
-        return if(other is Contact){
-                other.id == id
-        }else false
+        return if (other is Contact) {
+            other.id == id
+        } else false
     }
 
     override fun hashCode(): Int {
@@ -24,6 +24,4 @@ data class Contact(
         result = 31 * result + isDeleted.hashCode()
         return result
     }
-
-
 }

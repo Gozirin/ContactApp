@@ -1,22 +1,22 @@
-package com.smith.contactapp.ui
+package com.Week6.contactapp.ui
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.smith.contactapp.data.Contact
-import com.smith.contactapp.databinding.RecyclerViewContactBinding
+import com.Week6.contactapp.data.Contact
+import com.ContactWk6App.contactapp.databinding.RecyclerViewContactBinding
 
 class ContactAdapter: RecyclerView.Adapter<ContactAdapter.ViewHolder>() {
 
     var contacts = mutableListOf<Contact>()
 
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ContactAdapter.ViewHolder {
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
 
       return ViewHolder(RecyclerViewContactBinding.inflate(LayoutInflater.from(parent.context),parent,false))
     }
 
-    override fun onBindViewHolder(holder: ContactAdapter.ViewHolder, position: Int) {
+    override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         holder.binding.textViewName.text = contacts[position].fullName
         holder.binding.textViewContact.text = contacts[position].ContactNumber
 

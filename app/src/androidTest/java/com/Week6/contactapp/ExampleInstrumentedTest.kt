@@ -1,4 +1,4 @@
-package com.smith.contactapp
+package com.Week6.contactapp
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

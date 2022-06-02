@@ -1,3 +1,3 @@
-package com.smith.contactapp.data
+package com.Week6.contactapp.data
 
 const val NODE_CONTACT = "contacts"

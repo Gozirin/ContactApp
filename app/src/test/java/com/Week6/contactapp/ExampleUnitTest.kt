@@ -1,4 +1,4 @@
-package com.smith.contactapp
+package com.Week6.contactapp
 
 import org.junit.Test
 

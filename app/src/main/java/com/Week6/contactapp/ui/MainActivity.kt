@@ -1,8 +1,10 @@
-package com.smith.contactapp.ui
+package com.Week6.contactapp.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.smith.contactapp.R
+import com.ContactWk6App.contactapp.R
+
+
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

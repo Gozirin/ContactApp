@@ -19,7 +19,7 @@
             android:layout_marginLeft="100dp"
             android:layout_marginTop="20dp"
             android:fontFamily="sans-serif-light"
-            android:text="Ese Smith"
+            android:text="John Walt"
             android:textColor="#000000"
             android:textSize="20sp" />
 
@@ -30,7 +30,7 @@
             android:layout_marginLeft="100dp"
             android:layout_marginTop="60dp"
             android:fontFamily="sans-serif-light"
-            android:text="07067577979"
+            android:text="07031818757"
             android:textColor="#000000"
             android:textSize="20sp" />
 
